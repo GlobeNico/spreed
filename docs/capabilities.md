@@ -49,3 +49,4 @@ title: Capabilities
 * `config => attachments => folder` - User defined folder where items should be uploaded to
 * `config => conversations => can-create` - Whether the user can create public and group conversations, if not only one-to-one conversations are allowed
 * `force-mute` - "forceMute" signaling messages can be sent to mute other participants.
+* `chat-reference-id` - an optional referenceId can be sent with a chat message to be able to identify it in parallel get requests to earlier fade out a temporary message
